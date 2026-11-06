@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 400px; font-family: sans-serif; padding: 10px; }
+    h3 { margin-top: 0; }
+    ul { list-style: none; padding: 0; }
+    li { 
+      background: #f0f0f0; 
+      margin-bottom: 5px; 
+      padding: 8px; 
+      border-radius: 4px;
+      word-break: break-all;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    button { cursor: pointer; background: #007bff; color: white; border: none; padding: 4px 8px; border-radius: 4px; }
+    .empty { color: #888; font-style: italic; }
+  </style>
+</head>
+<body>
+  <h3>M3U8 Terdeteksi</h3>
+  <div id="status" class="empty">Mencari...</div>
+  <ul id="m3u8-list"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
